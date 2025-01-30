@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    border: 3px solid white;
+    height: 850px;
+    width: 1525px;
+    margin-top: 50px;
+}
+#invisible-container {
+    height: 850px;
+    width: 1500px;
+    position: relative;
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.element {
+    border: 3px solid white;
+    background-color: white;
+    height: 300px;
+    width: 15px;
+    bottom: 0px;
+    margin-top: auto;
+}

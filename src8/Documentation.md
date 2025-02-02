@@ -87,6 +87,7 @@ Example 2: display values
 
 Common display Values
 |Value	|Effect|
+|-------|----------------------------------------|
 |block	|Takes full width, starts on a new line|
 |inline	|Stays in the flow of text, takes only needed width|
 |flex	|Enables flexbox for layout|

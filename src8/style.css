@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center; /* Aligns items in the center horizontally */
+    background-color: lightblue;
+    height: 100px;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.block {
+    display: block;  /* Takes full width */
+    background-color: lightcoral;
+}
+
+.inline {
+    display: inline; /* Takes only the width of its content */
+    background-color: lightgreen;
+}
+
+.flex {
+    display: flex; /* Enables flexbox */
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.relative {
+    position: relative; /* Moves relative to its normal position */
+    top: 20px;
+    left: 10px;
+    background-color: lightblue;
+}
+
+.absolute {
+    position: absolute; /* Moves relative to the nearest positioned ancestor */
+    top: 10px;
+    right: 20px;
+    background-color: lightcoral;
+}
+
+.fixed {
+    position: fixed; /* Stays fixed to the viewport */
+    bottom: 10px;
+    right: 10px;
+    background-color: lightgreen;
+}
+
+.sticky {
+    position: sticky; /* Sticks to the top when scrolling */
+    top: 0;
+    background-color: yellow;
+}

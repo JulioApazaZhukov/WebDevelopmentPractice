@@ -29,6 +29,7 @@ Example 1: Using justify-content in display: flex;
 ```
 🔹 Result: The red squares will be centered horizontally inside the blue container.
 
+-----------------------------------------------------
 |flex-start	    |Aligns items to the start (default)|
 |flex-end	    |Aligns items to the end|
 |center	        |Centers items horizontally|

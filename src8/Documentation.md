@@ -29,12 +29,12 @@ Example 1: Using justify-content in display: flex;
 ```
 🔹 Result: The red squares will be centered horizontally inside the blue container.
 
-flex-start	    |Aligns items to the start (default)
-flex-end	    |Aligns items to the end
-center	        |Centers items horizontally
-space-between	|Spaces items with the first at the start and last at the end
-space-around	|Adds equal space around all items
-space-evenly	|Distributes space evenly between and around items
+|flex-start	    |Aligns items to the start (default)|
+|flex-end	    |Aligns items to the end|
+|center	        |Centers items horizontally|
+|space-between	|Spaces items with the first at the start and last at the end|
+|space-around	|Adds equal space around all items|
+|space-evenly	|Distributes space evenly between and around items|
 
 2. display
 This property determines how an element behaves in the document (block, inline, flex, grid, etc.).
@@ -86,12 +86,12 @@ Example 2: display values
 - The grid container arranges items into a two-column grid.
 
 Common display Values
-Value	|Effect
-block	|Takes full width, starts on a new line
-inline	|Stays in the flow of text, takes only needed width
-flex	|Enables flexbox for layout
-grid	|Enables grid layout
-none	|Hides the element
+|Value	|Effect|
+|block	|Takes full width, starts on a new line|
+|inline	|Stays in the flow of text, takes only needed width|
+|flex	|Enables flexbox for layout|
+|grid	|Enables grid layout|
+|none	|Hides the element|
 
 3. position
 This property controls how an element is positioned in relation to its normal place in the document.
@@ -135,21 +135,23 @@ Example 3: position values
 ```
 
 🔹 Result:
-The relative box moves slightly from its original place.
-The absolute box moves relative to the nearest positioned ancestor.
-The fixed box stays in the same place even when scrolling.
-The sticky box sticks to the top when scrolling down.
+- The relative box moves slightly from its original place.
+- The absolute box moves relative to the nearest positioned ancestor.
+- The fixed box stays in the same place even when scrolling.
+- The sticky box sticks to the top when scrolling down.
 
 Common position Values
-Value	    |Effect
-static	    |Default, follows normal document flow
-relative	|Moves relative to its normal position
-absolute	|Moves relative to the nearest positioned ancestor
-fixed	    |Stays in the same position even when scrolling
-sticky	    |Sticks to a position when scrolling
+|Value	    |Effect|
+|-----------|--------------------------------------------------|
+|static	    |Default, follows normal document flow|
+|relative	|Moves relative to its normal position|
+|absolute	|Moves relative to the nearest positioned ancestor|
+|fixed	    |Stays in the same position even when scrolling|
+|sticky	    |Sticks to a position when scrolling|
 
 Summary
-Property	        |Purpose
-justify-content	    |Aligns items in flexbox or grid along the main axis
-display	            |Defines how elements are displayed (block, inline, flex, etc.)
-position	        |Controls how an element is positioned (relative, absolute, etc.)
+|Property	        |Purpose|
+|-----------------------|---------------------------------------------------|
+|justify-content	    |Aligns items in flexbox or grid along the main axis|
+|display	            |Defines how elements are displayed (block, inline, flex, etc.)|
+|position	        |Controls how an element is positioned (relative, absolute, etc.)|

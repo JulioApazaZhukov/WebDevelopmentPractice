@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center; 
+    color: white;
+    font-size: 24px;
+    margin: 50px;
+}
+
+/* Peru */
+#Peru {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center; 
+    color: white;
+}
+
+#Peru > #b1 {
+    height: 100%;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    left: -150px;
+}
+
+#Peru > #b2 {
+    height: 100%;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    left: 150px;
+}
+
+/* England */
+#England {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center; 
+    color: white;
+    display: block;
+}
+
+#England > #b1 {
+    height: 100%;
+    width: 90px;
+    background-color: red;
+    position: relative;
+    z-index: 0;
+    left: 400px;
+}
+
+#England > #b2 {
+    height: 90px;
+    width: 100%;
+    top: -345px;
+    background-color: red;
+    position: relative;
+    z-index: 10;
+}
+
+/* UnitedKingdom */
+#UnitedKingdom {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(31, 31, 186);
+    display: block;
+}
+
+#UnitedKingdom > #b1 {
+    height: 100%;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    z-index: 0;
+    left: 420px;
+}
+
+#UnitedKingdom > #b2 {
+    height: 50px;
+    width: 100%;
+    top: -320px;
+    background-color: red;
+    position: relative;
+    z-index: 10;
+}

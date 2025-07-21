@@ -82,22 +82,85 @@ body {
     justify-content: center; 
     background-color: rgb(31, 31, 186);
     display: block;
+    overflow: hidden;
 }
 
 #UnitedKingdom > #b1 {
     height: 100%;
-    width: 50px;
-    background-color: red;
-    position: relative;
-    z-index: 0;
-    left: 420px;
-}
-
-#UnitedKingdom > #b2 {
-    height: 50px;
-    width: 100%;
-    top: -320px;
+    width: 100px;
     background-color: red;
     position: relative;
     z-index: 10;
+    left: 400px;
+}
+
+#UnitedKingdom > #b2 {
+    height: 100px;
+    width: 100%;
+    top: -340px;
+    background-color: red;
+    position: relative;
+    z-index: 10;
+}
+
+#UnitedKingdom > #b3 {
+    height: 110%;
+    width: 25%;
+    top: -700px;
+    left: 370px;
+    background-color: white;
+    position: relative;
+    transform: skewX(57deg);
+    z-index: 2;
+}
+
+#UnitedKingdom > #b4 {
+    height: 110%;
+    width: 25%;
+    top: -1400px;
+    left: 370px;
+    background-color: white;
+    position: relative;
+    transform: skewX(-57deg);
+    z-index: 2;
+}
+#UnitedKingdom > #b5 {
+    height: 110%;
+    width: 8%;
+    top: -2020px;
+    left: 370px;
+    background-color: red;
+    position: relative;
+    transform: skewX(-57deg);
+    z-index: 2;
+}
+
+#UnitedKingdom > #b6 {
+    height: 110%;
+    width: 8%;
+    top: -2720px;
+    left: 370px;
+    background-color: red;
+    position: relative;
+    transform: skewX(57deg);
+    z-index: 2;
+}
+#UnitedKingdom > #b7 {
+    height: 110%;
+    width: 160px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    left: 370px;
+    top: -3380px;
+}
+
+#UnitedKingdom > #b8 {
+    height: 160px;
+    width: 110%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    left: -5px;
+    top: -3770px;
 }

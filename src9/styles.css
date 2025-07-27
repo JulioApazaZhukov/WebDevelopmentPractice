@@ -1,0 +1,53 @@
+#container1{
+    display: flex;
+    min-height: 800px;
+    border: 5px solid red;
+
+    /* Position: flex-start, flex-end and center */
+    /* Or by separation: space-around, space-between, space-evenly */
+    /*On a horizontal axis (main axis)*/
+    justify-content: space-evenly; 
+    /*On a vertical axis (cross axis)*/
+    align-items: center; 
+}
+
+#container2{
+    display: flex;
+    margin-top: 10px;
+    min-height: 800px;
+    border: 5px solid red;
+
+    /*felx-direction controls the direction of the main axis, which influences other flexbox properties*/
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /*after flex-direction: column (main axis now vertical), the jutify-content and align-items role gets reversed, meaning that align-items: center centers the content horizontaly instead of verticaly*/
+}
+
+#container3{
+    display: flex;
+    min-height: 800px;
+    border: 5px solid red;
+
+    justify-content: flex-start;
+    gap: 20px; /*creates a gap in between elements without considering the container*/
+    /*column-gap creates a gap in getween columns*/
+    /*row-gap creates a gap in getween rows*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /*align-items whill controll the alignment along the cross axis of every flexbox line individualy and align-content will control the alignment of all lines together*/
+    align-content: center;
+}
+
+.box {
+    height:150px;
+    width: 150px;
+    background-color: darkcyan;
+    font-size: 40pt;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

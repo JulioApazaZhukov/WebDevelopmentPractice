@@ -2,165 +2,41 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
+    background-color: #cbcbcb;
+    padding: 10px;
+    gap: 10px;
 }
-.box {
-    width: 900px;
-    height: 600px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center; 
-    color: white;
-    font-size: 24px;
-    margin: 50px;
-}
-
 /* Peru */
 #Peru {
+    display: flex;
     width: 900px;
     height: 600px;
-    display: flex;
-    justify-content: center; 
-    color: white;
+    background-color: white;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    gap: 300px;
 }
-
-#Peru > #b1 {
-    height: 100%;
+#Peru > .b {
+    height: 600px;
     width: 300px;
     background-color: red;
-    position: relative;
-    left: -150px;
 }
-
-#Peru > #b2 {
-    height: 100%;
-    width: 300px;
-    background-color: red;
-    position: relative;
-    left: 150px;
-}
-
-/* England */
 #England {
+    display: flex;
     width: 900px;
     height: 600px;
-    display: flex;
-    justify-content: center; 
-    color: white;
-    display: block;
-}
-
-#England > #b1 {
-    height: 100%;
-    width: 90px;
     background-color: red;
-    position: relative;
-    z-index: 0;
-    left: 400px;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
 }
-
-#England > #b2 {
-    height: 90px;
-    width: 100%;
-    top: -345px;
-    background-color: red;
-    position: relative;
-    z-index: 10;
-}
-
-/* UnitedKingdom */
-#UnitedKingdom {
-    width: 900px;
-    height: 600px;
-    display: flex;
-    justify-content: center; 
-    background-color: rgb(31, 31, 186);
-    display: block;
-    overflow: hidden;
-}
-
-#UnitedKingdom > #b1 {
-    height: 100%;
-    width: 100px;
-    background-color: red;
-    position: relative;
-    z-index: 10;
-    left: 400px;
-}
-
-#UnitedKingdom > #b2 {
-    height: 100px;
-    width: 100%;
-    top: -340px;
-    background-color: red;
-    position: relative;
-    z-index: 10;
-}
-
-#UnitedKingdom > #b3 {
-    height: 110%;
-    width: 25%;
-    top: -700px;
-    left: 370px;
+#England > .b{
+    height: 275px;
+    width: 425px;
     background-color: white;
-    position: relative;
-    transform: skewX(57deg);
-    z-index: 2;
-}
-
-#UnitedKingdom > #b4 {
-    height: 110%;
-    width: 25%;
-    top: -1400px;
-    left: 370px;
-    background-color: white;
-    position: relative;
-    transform: skewX(-57deg);
-    z-index: 2;
-}
-#UnitedKingdom > #b5 {
-    height: 110%;
-    width: 8%;
-    top: -2020px;
-    left: 370px;
-    background-color: red;
-    position: relative;
-    transform: skewX(-57deg);
-    z-index: 2;
-}
-
-#UnitedKingdom > #b6 {
-    height: 110%;
-    width: 8%;
-    top: -2720px;
-    left: 370px;
-    background-color: red;
-    position: relative;
-    transform: skewX(57deg);
-    z-index: 2;
-}
-#UnitedKingdom > #b7 {
-    height: 110%;
-    width: 160px;
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    left: 370px;
-    top: -3380px;
-}
-
-#UnitedKingdom > #b8 {
-    height: 160px;
-    width: 110%;
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    left: -5px;
-    top: -3770px;
 }

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    border: 1px solid red;
+}
+#logo-container {
+    display: flex;
+    height: 55px;
+}
+#logo-subcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+#navbarUl {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+#navbarUl > li > a {
+  text-decoration: none;
+}
